@@ -1,8 +1,7 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mochila01DP {
+public class problema_mochila {
 
     static class Objeto {
         int peso;
@@ -73,11 +72,11 @@ public class Mochila01DP {
     public static void main(String[] args) {
         List<Objeto> objetos = new ArrayList<>();
 
-        objetos.add(new Objeto("O1", 6, 30));
-        objetos.add(new Objeto("O2", 3, 14));
-        objetos.add(new Objeto("O3", 4, 16));
+        objetos.add(new Objeto("O1", 9, 30));
+        objetos.add(new Objeto("O2", 5, 4));
+        objetos.add(new Objeto("O4", 3, 5));
 
-        int capacidad = 10;
+        int capacidad = 3;
 
         System.out.println("Capacidad máxima de la mochila: " + capacidad);
         System.out.println("Objetos disponibles:");
