@@ -1,4 +1,3 @@
-package progra3.TPO_PROGRAMACION_MARDONES;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -91,4 +90,3 @@ public class Mochila01DP {
         System.out.println("\nValor máximo obtenido: " + valorMaximo);
     }
 }
-
