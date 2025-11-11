@@ -1,4 +1,3 @@
-package progra3.TPO_PROGRAMACION_MARDONES;
 
 class SeleccionDeActividadesGreedy {
 
