@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class problema_mochila {
+public class Mochila01DP{
 
     static class Objeto {
         int peso;
@@ -89,3 +89,4 @@ public class problema_mochila {
         System.out.println("\nValor máximo obtenido: " + valorMaximo);
     }
 }
+
